@@ -1,0 +1,42 @@
+{
+  "dev": {
+    "command": "npm run dev",
+    "description": "Starts the development server with hot reloading"
+  },
+  "build": {
+    "command": "npm run build",
+    "description": "Builds the production bundle"
+  },
+  "start": {
+    "command": "npm run start",
+    "description": "Starts the production server"
+  },
+  "lint": {
+    "command": "npm run lint",
+    "description": "Runs ESLint to check for code quality issues"
+  },
+  "test": {
+    "command": "npm run test",
+    "description": "Runs Jest tests"
+  },
+  "test:watch": {
+    "command": "npm run test:watch",
+    "description": "Runs Jest tests in watch mode"
+  },
+  "coverage": {
+    "command": "npm run test --coverage",
+    "description": "Runs Jest tests with coverage reporting"
+  },
+  "format": {
+    "command": "npm run format",
+    "description": "Formats code using Prettier"
+  },
+  "clean": {
+    "command": "rm -rf dist",
+    "description": "Removes the build directory"
+  },
+  "deploy": {
+    "command": "pm2 start pm2.config.js --no-daemon",
+    "description": "Deploys the application using PM2"
+  }
+}
